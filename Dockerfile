@@ -9,3 +9,4 @@ RUN passwd -d jchen
 RUN chown -R jchen:jchen /home/jchen
 
 ENV HOME /home/jchen
+USER jchen
